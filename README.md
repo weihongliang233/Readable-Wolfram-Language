@@ -2,7 +2,7 @@
 
 Wolfram language(Mathematica) is a Lisp-like programming language. It's code is actually abstract syntax tree / S-expression.
 
-Traditional Lisp grammar lacks readability, and there is a [Readable Lisp S-expressions Project ](https://readable.sourceforge.io/). Our readable-WL project implements similar   indention and newline based grammar.
+Traditional Lisp syntax lacks readability, and there is a [Readable Lisp S-expressions Project ](https://readable.sourceforge.io/). Our readable-WL project implements similar   indention and newline based syntax.
 
 Example:
 
