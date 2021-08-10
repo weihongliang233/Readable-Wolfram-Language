@@ -57,3 +57,14 @@ Transform[test]
 (* g[a[b + c, d[e]], a[b[c, d, e], d[e]]] *)
 ```
 
+## Known Issues
+
+1. Evaluation Control. 
+
+   The translator uses `ToExpression`. During the lexical analysis, the expression is synchronously evaluated, which is in a different order than the standard evaluation order of WL. 
+
+## TODO
+
+1. Translate normal WL expression into readable-WL.
+2. Deal with issue1.
+
