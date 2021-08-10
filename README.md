@@ -62,6 +62,17 @@ Transform[test]
 1. Evaluation Control. 
 
    The translator uses `ToExpression`. During the lexical analysis, the expression is synchronously evaluated, which is in a different order than the standard evaluation order of WL. 
+   
+2. String,  Code Injection
+
+   ```mathematica
+   a = ToString[1 + "2"];
+   b = ToExpression[a];
+   a == b
+   (*False*)
+   ```
+
+   
 
 ## TODO
 
